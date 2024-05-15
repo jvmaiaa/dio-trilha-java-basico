@@ -17,7 +17,7 @@ public class Main {
         try {
             contar(parametroUm, parametroDois);
         } catch (ParametrosInvalidosExeption e){
-            e.getMessage();
+            System.out.println(e.getMessage());
         }
 
         scan.close();
